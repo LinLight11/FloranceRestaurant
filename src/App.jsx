@@ -11,7 +11,7 @@ import MenuPage from './pages/MenuPage'
 function App() {
   return (
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/FloranceRestaurant">
         <Navbar />
         <Routes>
           <Route path="/" element={<MainPage />} />
