@@ -1,0 +1,27 @@
+.pull-quote {
+  text-align: center;
+  padding: 48px 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pull-quote-text {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 40px;
+  line-height: 1.5;
+  color: var(--color-espresso);
+  margin-bottom: 16px;
+}
+
+.pull-quote-author {
+  font-size: 14px;
+  color: var(--color-gold);
+  font-style: normal;
+}
+
+@media (max-width: 640px) {
+  .pull-quote-text {
+    font-size: 30px;
+  }
+}

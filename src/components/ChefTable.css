@@ -1,0 +1,83 @@
+.chef-table {
+  display: flex;
+  gap: 32px;
+  padding: 48px 32px 0;
+  align-items: stretch;
+}
+
+.chef-table-image-wrapper {
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.chef-table-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.chef-table-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chef-table-label {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--color-gold);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.chef-table-title {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.chef-table-description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-espresso-light);
+  margin-bottom: 20px;
+}
+
+.chef-table-meta {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.chef-table-meta-label {
+  display: block;
+  font-size: 11px;
+  color: var(--color-gold);
+  margin-bottom: 4px;
+}
+
+.chef-table-meta-value {
+  display: block;
+  font-size: 13px;
+}
+
+.chef-table-button {
+  align-self: flex-start;
+  background-color: var(--color-espresso);
+  color: var(--color-cream);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .chef-table {
+    flex-direction: column;
+  }
+}

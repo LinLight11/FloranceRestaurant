@@ -1,0 +1,90 @@
+.reservation-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.reservation-card {
+  background-color: var(--color-cream);
+  border-radius: 16px;
+  padding: 28px;
+  max-width: 340px;
+  width: 100%;
+  position: relative;
+}
+
+.reservation-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--color-espresso);
+}
+
+.reservation-title {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.reservation-subtext {
+  font-size: 13px;
+  color: var(--color-espresso-light);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.reservation-date-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(42, 31, 22, 0.2);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  color: var(--color-espresso);
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.reservation-confirm-button {
+  width: 100%;
+  background-color: var(--color-espresso);
+  color: var(--color-cream);
+  border: none;
+  padding: 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.reservation-confirm-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.reservation-confirmed {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.reservation-confirmed p {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.reservation-confirmed span {
+  font-size: 13px;
+  color: var(--color-espresso-light);
+  line-height: 1.6;
+}

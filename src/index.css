@@ -1,0 +1,27 @@
+:root {
+  --color-cream: #F6F3EB;
+  --color-cream2:rgb(151, 123, 45)B;
+
+  --color-espresso: #2A1F16;
+  --color-espresso-light: #3D2E1F;
+  --color-gold: #A67C52;
+ 
+  --font-serif: "Castoro", serif;
+  --font-sans: "Castoro", serif;}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-cream);
+  font-family: var(--font-sans);
+  color: var(--color-espresso);
+}
+
+.page-container {
+  max-width: 1250px;
+  margin: 0 auto;
+}

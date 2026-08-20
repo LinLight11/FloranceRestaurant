@@ -1,0 +1,117 @@
+.discover-cards {
+  padding: 40px 32px 60px;
+}
+
+.discover-title {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.discover-grid {
+  display: flex;
+  gap: 100px;
+}
+
+.discover-card {
+  flex: 1;
+}
+
+.discover-card-image-wrapper {
+  width: 100%;
+  height: 420px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.discover-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.discover-card:hover .discover-card-image {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.discover-card-title {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.discover-card-title:hover{
+  color: rgba(165, 147, 126, 0.834);
+  cursor: pointer;
+}
+
+.discover-card-author {
+  font-size: 12px;
+  color: var(--color-gold);
+}
+
+@media (max-width: 1100px) {
+  .discover-cards {
+    padding: 32px 20px 40px;
+  }
+
+  .discover-grid {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 950px) {
+  .discover-cards {
+    padding: 32px 20px 40px;
+  }
+
+  .discover-grid {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .discover-cards {
+    padding: 32px 20px 40px;
+  }
+.discover-card-image-wrapper {
+    height: 320px ;
+}
+  .discover-grid {
+    gap: 20px;
+  }
+}
+
+
+
+@media (max-width: 640px) {
+  .discover-cards {
+    padding: 32px 20px 40px;
+  }
+
+ .discover-card-image-wrapper {
+    height: 220px ;
+}
+  .discover-grid {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .discover-cards {
+    padding: 32px 20px 40px;
+  }
+
+  .discover-grid {
+    flex-direction: column;
+  }
+   .discover-card-image-wrapper {
+    height: 500px ;
+}
+}
