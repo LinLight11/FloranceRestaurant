@@ -3,7 +3,7 @@ import './MenuHero.css'
 function MenuHero() {
   return (
     <section className="menu-hero">
-      <img src="/img/Wine Cellar Break.jpg" alt="Wine cellar" className="menu-hero-image" />
+      <img src="./img/Wine Cellar Break.jpg" alt="Wine cellar" className="menu-hero-image" />
       <div className="menu-hero-overlay">
         <h1 className="menu-hero-title">A Taste of Tuscany</h1>
         <p className="menu-hero-subtext">

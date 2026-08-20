@@ -11,12 +11,12 @@ function ArticleHero() {
 
       <div className="article-hero-image-wrapper">
         <img
-          src="/img/article-heroimg.png"
+          src="./img/article-heroimg.png"
           alt="Florance article"
           className="article-hero-image article-hero-image-default"
         />
         <img
-          src="/img/logoo.jpg"
+          src="./img/logoo.jpg"
           alt="Florance logo"
           className="article-hero-image article-hero-image-logo"
         />

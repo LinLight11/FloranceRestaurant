@@ -4,17 +4,17 @@ const features = [
   {
     title: 'Wine',
     description: 'Handpicked wines selected with intention.',
-    image: '/img/wine.jpg',
+    image: './img/wine.jpg',
   },
   {
     title: 'Cuisine',
     description: 'Refined flavors inspired by Florentine culinary tradition.',
-    image: '/img/fork.jpg',
+    image: './img/fork.jpg',
   },
   {
     title: 'Experience',
     description: 'A space where every detail creates a moment together.',
-    image: '/img/menu.jpg',
+    image: './img/menu.jpg',
   },
 ]
 

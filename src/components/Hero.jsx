@@ -12,7 +12,7 @@ function Hero() {
 
       <div className="hero-image-wrapper">
         <img
-          src="/img/image.png"
+          src={`${import.meta.env.BASE_URL}img/image.png`}
           alt="Florance wine boxes"
           className="hero-image"
         />

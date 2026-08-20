@@ -18,13 +18,13 @@ function Footer() {
       <div className="footer-bottom">
         <div className="footer-socials">
   <a href="#" className="footer-social-link" aria-label="Facebook">
-    <img src="/img/facebook.png" alt="Facebook" />
+    <img src="./img/facebook.png" alt="Facebook" />
   </a>
   <a href="https://www.instagram.com/merakii__co" className="footer-social-link" aria-label="Instagram">
-    <img src="/img/instagram.png" alt="Instagram" />
+    <img src="./img/instagram.png" alt="Instagram" />
   </a>
   <a href="https://www.linkedin.com/company/merakiico" className="footer-social-link" aria-label="Linkedin">
-    <img src="/img/linkedin.png" alt="Linkedin" />
+    <img src="./img/linkedin.png" alt="Linkedin" />
   </a>
 </div>
       </div>

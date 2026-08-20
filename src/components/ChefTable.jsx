@@ -8,7 +8,7 @@ function ChefTable() {
   return (
     <section className="chef-table">
       <div className="chef-table-image-wrapper">
-        <img src="/img/poster.jpg" alt="Chef's Table" className="chef-table-image" />
+        <img src="./img/poster.jpg" alt="Chef's Table" className="chef-table-image" />
       </div>
       <div className="chef-table-info">
         <span className="chef-table-label">Exclusive Experience</span>

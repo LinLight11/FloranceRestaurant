@@ -9,10 +9,10 @@ const articles = [
       'A crisp white wine can bring brightness to delicate seafood, while a rich red can complement the depth of roasted meats and slow-cooked dishes. Fresh, acidic wines can cut through creamy sauces, while softer, fruit-forward varieties can bring warmth and harmony to lighter flavors.',
       'Temperature, texture, and preparation, and even the atmosphere around the table can change the experience entirely. A familiar dish can feel completely different when accompanied by a wine that reveals something unexpected within it.',
     ],
-    bodyImage: '/img/wineb.png',
+    bodyImage: './img/wineb.png',
     cardTitle: 'Wine Tasting',
     cardAuthor: 'By John',
-    cardImage: '/img/discover-1.jpg',
+    cardImage: './img/discover-1.jpg',
   },
   {
     id: 'plate',
@@ -24,10 +24,10 @@ const articles = [
       'At Florance, presentation is treated as its own language. Every plate is composed with intention, from the balance of color and texture to the smallest finishing detail. A dish arranged with care tells the guest, before the first bite, that something thoughtful awaits. It creates anticipation, turning a simple arrival at the table into the beginning of a story.',
       'The best dining experiences engage every sense at once. Texture, aroma, sound, even silence — all become part of the story a chef is telling.',
     ],
-    bodyImage: '/img/imgforart.jpg',
+    bodyImage: './img/imgforart.jpg',
     cardTitle: 'Beyond the Plate',
     cardAuthor: 'By Sam',
-    cardImage: '/img/discover-2.jpg',
+    cardImage: './img/discover-2.jpg',
   },
   {
     id: 'dinner-night',
@@ -39,10 +39,10 @@ const articles = [
       'It is a ritual built around presence: good food, thoughtful company, and the luxury of having nowhere else to be. Because sometimes the most memorable evenings are not defined by a single dish or occasion, but by the feeling of time slowing down. At Florance, dinner invites you to stay a little longer, savor a little more, and let the evening become its own kind of memory.',
       'There is something quietly radical about slowing down to eat well. It is one of the oldest forms of hospitality, and still one of the finest.',
     ],
-    bodyImage: '/img/imgforart1.jpg',
+    bodyImage: './img/imgforart1.jpg',
     cardTitle: 'Dinner Night',
     cardAuthor: 'By John',
-    cardImage: '/img/poster.jpg',
+    cardImage: './img/poster.jpg',
   },
   {
     id: 'harvest',
@@ -54,10 +54,10 @@ const articles = [
         'At Florance, harvest season is celebrated not just for the grapes it yields, but for the sense of renewal it brings to the whole cellar. It is a moment when the work of another season comes together and the foundations for what is to come are quietly laid.',
         'For Florance, the harvest is more than a time of gathering. It is a celebration of patience, craftsmanship, and the passage of time — a reminder that the most memorable things are often given the space to become what they are meant to be.'
           ],
-    bodyImage: '/img/imgforart2.jpg',
+    bodyImage: './img/imgforart2.jpg',
     cardTitle: 'The Special',
     cardAuthor: 'By Elena',
-    cardImage: '/img/discover-3.jpg',
+    cardImage: './img/discover-3.jpg',
   },
 ]
 

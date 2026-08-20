@@ -4,7 +4,7 @@ function WineBanner() {
   return (
     <section className="wine-banner">
       <img
-        src="/img/winebanner.png"
+        src={`${import.meta.env.BASE_URL}img/winebanner.png`}
         alt="Wine cellar"
         className="wine-banner-image"
       />
