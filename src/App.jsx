@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop'
 function App() {
   return (
     <CartProvider>
-      <BrowserRouter basename="/FloranceRestaurant">
+      <BrowserRouter basename="/FloranceRestaurant/">
       <ScrollToTop />
         <Navbar />
         <Routes>
