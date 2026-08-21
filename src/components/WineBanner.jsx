@@ -1,25 +1,20 @@
+import { Link } from 'react-router-dom'
 import './WineBanner.css'
-import { useNavigate } from "react-router-dom";
 
 function WineBanner() {
-  const navigate = useNavigate();
   return (
-    
     <section className="wine-banner">
       <img
-        src={`${import.meta.env.BASE_URL}img/winebanner.png`}
+        src="./img/winebanner.png"
         alt="Wine cellar"
         className="wine-banner-image"
       />
       <div className="wine-banner-overlay">
         <div className="wine-banner-content">
           <h2 className="wine-banner-title">Finest Wine Selection</h2>
-          <button className="wine-banner-button" onClick={() => {
-    navigate("/menu");
-    window.scrollTo(0, 0);
-  }}>Menu
-
-          </button>
+          <Link to="/menu" className="wine-banner-button">
+            Menu
+          </Link>
         </div>
       </div>
     </section>
